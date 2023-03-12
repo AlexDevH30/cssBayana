@@ -62,7 +62,6 @@ input[type="radio"]:checked ~ .tab__label span{
    max-height: 0;
    overflow: hidden;
    margin-top: 1em;
-   /* padding-top: 0.5em; */
    cursor: pointer;
    transition: 0.2s ease-in;
    text-align: center;
@@ -81,7 +80,6 @@ input[type="radio"]:checked ~ .tab__label span{
 
 .tab__label span{
     margin-left: auto;
-    
 }
 
 
@@ -233,3 +231,5 @@ input[type="radio"]:checked ~ .tab__label{
     }
     
     }
+
+    /*  final result */
