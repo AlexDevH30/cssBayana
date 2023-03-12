@@ -217,12 +217,12 @@ input[type="radio"]:checked ~ .tab__label{
     
     
     input[type="radio"]:checked ~ .tab__label .svg{
-        fill: wheat ;
+        fill: rgb(238, 158, 11) ;
     }
     
     input[type="radio"]:checked ~ .tab__label{
         color: wheat;
-        border-bottom: 0.2em  solid wheat;
+        border-bottom: 0.2em  solid rgb(238, 158, 11);
        
     }
 
