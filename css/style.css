@@ -76,6 +76,7 @@ input[type="radio"]:checked ~ .tab__label span{
     padding: 0.8em 1.4em;
     border-bottom: 0.2em solid #fff;
     transition: all 0.3s ease-in;
+    font-size: 1.5em;
 }
 
 .tab__label span{
@@ -178,6 +179,10 @@ input[type="radio"]:checked ~ .tab__label{
    
 }
 
+.tab__label{
+    font-size: 1em;
+}
+
 }
 
 @media (max-width: 320px){
@@ -221,6 +226,10 @@ input[type="radio"]:checked ~ .tab__label{
         color: wheat;
         border-bottom: 0.2em  solid wheat;
        
+    }
+
+    .tab__label{
+        font-size: 0.5em;
     }
     
     }
